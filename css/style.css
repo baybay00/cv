@@ -1,0 +1,223 @@
+nav {
+    background-color: #222831;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .anchor {
+    color: #00ADB5;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+footer .anchor {
+    color: #EEEEEE;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #00ADB5;
+    font-size: small;
+    color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#bailey {
+    border-radius: 50%;
+}
+
+.about {
+    background-color: #393E46;
+    color: #00ADB5;
+    padding: 15px;
+    align-content: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+#bio {
+    text-align: center;
+}
+hr {
+    border: 1px solid #00ADB5;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #393E46;
+    padding: 10px;
+    border: 1px solid #00ADB5;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.name h1 {
+    margin-top: 90px;
+    font-size: 48px;
+}
+
+.name #saturn {
+    position: absolute;
+    right: 200px;
+    top: 0;
+}
+
+.name #moon {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+    color: #00ADB5;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+}
+
+h3 {
+    margin: 0;
+    color: #00ADB5;
+    font-size: 26px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.copy {
+    color: #EEEEEE;
+}
+
+p, ul, dl {
+    font-family: 'Urbanist', sans-serif;
+    color: #EEEEEE;
+    font-size: 16px;
+}
+
+dd {
+    margin: 0;
+}
+
+.occupation {
+    background-color: #393E46;
+    color: #00ADB5;
+    padding: 15px;
+}
+
+.links:link, .anchor:link {
+    color: #00ADB5;
+    text-decoration: none;
+}
+
+.links:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.anchor:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    color: #FFFFFF;
+    text-decoration: underline dashed;
+}
+
+.foot-link:link, .foot-link:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.foot-link:hover {
+    color: #FFFFFF;
+    text-decoration: underline dashed;
+}
+
+.info {
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    margin: 16px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.three-col {
+    display: grid;
+    gap: normal;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+}
+li {
+    padding: 10px;
+}
+dl {
+   display: flex;
+   flex-direction: column;
+}
+
+#sub {
+    font-size: 24px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+form {
+    font-family: 'Urbanist', sans-serif;
+    margin-bottom: 10px;
+}
+
+ .one-col label, .one-col input, .one-col textarea {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.one-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+
